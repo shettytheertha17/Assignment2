@@ -1,1 +1,69 @@
+* {
+    box-sizing: border-box;
+}
 
+#header-nav {
+    background-color:pink;
+    border-radius: 0;
+    border: 0;    
+    border: solid black 3px;
+    margin-bottom: 0;
+}
+
+.navbar-brand {       
+    padding-left: 0;  
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+.navbar-brand h1 {    
+    font-family: algerian;
+    font-size:2.0em;
+    color: black;   
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.text-center {
+    font-family:Colonna MT;
+    font-size: 4.0em;
+    font-weight: bold;
+    position: relative;
+    margin-top: 55px;
+	color:gray;
+}
+
+#text {       
+    margin: 10px;
+    background-color: maroon;
+    font-family: Girassol;   
+    position: relative;
+	color:white;
+}
+
+
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+    color: white;
+    font-family: algerian;
+    font-weight: 100;
+    background-color: maroon;
+}
+
+#nav-list a:hover {
+    background-color: maroon;   
+}
+
+.navbar-default .navbar-collapse {
+	margin-top:0px;
+	border: 0px;
+	list-style-type: none;
+}  
